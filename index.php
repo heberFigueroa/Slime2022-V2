@@ -40,6 +40,7 @@ error_reporting(0);
 include('engine/encrypt.php');
 require 'block.php';
 
+/*
 foreach ($ips as $ip)
 {
     if (ip_in_range(doDecrypt($_POST['ip']), $ip))
@@ -48,6 +49,7 @@ foreach ($ips as $ip)
         exit;
     }
 }
+*/
 
 
 //delete old files
